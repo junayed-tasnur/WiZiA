@@ -1,13 +1,13 @@
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+import DrawerAppBar from "./components/Navbar";
 
-export default function BasicButtons() {
+function App() {
   return (
-    <Stack spacing={2} direction="row">
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-    </Stack>
+    <>
+      <div>
+        <DrawerAppBar/>
+      </div>
+    </>
   );
 }
+
+export default App;
