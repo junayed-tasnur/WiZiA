@@ -1,10 +1,12 @@
+import AILeadsPage from "./components/AILeadsPage";
 import DrawerAppBar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div>
-        <DrawerAppBar/>
+      <div className="">
+        <DrawerAppBar />
+        <AILeadsPage/>
       </div>
     </>
   );

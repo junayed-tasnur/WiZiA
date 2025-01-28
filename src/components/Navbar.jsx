@@ -25,6 +25,7 @@ const Navbars = () => {
 
   return (
     <>
+      <div>
       <AppBar
         elevation={0}
         position="static"
@@ -119,6 +120,7 @@ const Navbars = () => {
           </ListItem>
         </List>
       </Drawer>
+   </div>
     </>
   );
 };
