@@ -25,7 +25,7 @@ const Navbars = () => {
 
   return (
     <>
-      <div>
+      <div className="w-full max-w-auto">
       <AppBar
         elevation={0}
         position="static"

@@ -1,12 +1,14 @@
+import Addsds from "./components/Logos";
 import AILeadsPage from "./components/AILeadsPage";
 import DrawerAppBar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div className="">
+      <div className="bg-[#002228]">
         <DrawerAppBar />
-        <AILeadsPage/>
+        <AILeadsPage />
+        <Addsds />
       </div>
     </>
   );
