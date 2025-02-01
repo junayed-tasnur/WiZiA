@@ -9,9 +9,9 @@ const AILeadsPage = () => {
           backgroundImage: "url('/bgOne.png')",
         }}
       >
-        <div className="sm:ml-[120px] text-center sm:text-start  ">
+        <div className=" text-center sm:text-start max-w-[1400px] mx-auto ">
           <h5 className="text-tcolr text-2xl sm:mt-10">AI SDRs (aiDRs)</h5>
-          <h1 className="ml-6 sm:ml-0 my-2 text-white text-5xl sm:text-4xl lg:text-6xl sm:max-w-sm max-w-xs">
+          <h1 className="ml-7 sm:ml-0 my-2 text-white text-5xl sm:text-4xl lg:text-6xl sm:max-w-sm max-w-xs">
             <span className="font-bold">More</span> leads,{" "}
             <span className="font-bold">less</span> people.
           </h1>
