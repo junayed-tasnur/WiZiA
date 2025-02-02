@@ -21,7 +21,7 @@ const Logos = () => {
             <div className="col-span-2 md:col-span-1 lg:col-span-1 m-[-21px]">
               <img
                 className="hover:scale-125 transition-all duration-300 ease-in-out"
-                src="/public/AMD logo.png"
+                src="/AMD logo.png"
                 alt=""
               />
             </div>

@@ -1,8 +1,8 @@
-import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
+import CheckCircleOutlineOutlinedIcon from "@mui/icons-material/CheckCircleOutlineOutlined";
 
 export default function EmailTrainingPage() {
   return (
-    <div className="text-white flex text-start sm:items-center justify-center ">
+    <div className="text-white flex text-start sm:items-center justify-center max-w-[1400px] mx-auto">
       <div
         className="bg-cover bg-no-repeat w-full"
         style={{ backgroundImage: `url('/Framebg.png')` }}
@@ -16,12 +16,23 @@ export default function EmailTrainingPage() {
             You&apos;re in control. Train your aiDR on elements of your
             Marketing strategy.
           </p>
-          
+
           <div className="grid gap-5 sm:grid-cols-2 mb- text-icon space-x-1">
-            <p className="font-medium flex items-center"><CheckCircleOutlineOutlinedIcon className="mr-2" /> Quick to ramp</p>
-            <p className="font-medium flex items-center"><CheckCircleOutlineOutlinedIcon className="mr-2" /> Easy to optimize</p> 
-            <p className="font-medium flex items-center"><CheckCircleOutlineOutlinedIcon className="mr-2" /> Quick to scale up</p>
-            <p className="font-medium flex items-center "><CheckCircleOutlineOutlinedIcon className="mr-2 mb-5" /> Works with all your existing tools</p>
+            <p className="font-medium flex items-center">
+              <CheckCircleOutlineOutlinedIcon className="mr-2" /> Quick to ramp
+            </p>
+            <p className="font-medium flex items-center">
+              <CheckCircleOutlineOutlinedIcon className="mr-2" /> Easy to
+              optimize
+            </p>
+            <p className="font-medium flex items-center">
+              <CheckCircleOutlineOutlinedIcon className="mr-2" /> Quick to scale
+              up
+            </p>
+            <p className="font-medium flex items-center ">
+              <CheckCircleOutlineOutlinedIcon className="mr-2 sm:mb-5" /> Works
+              with all your existing tools
+            </p>
           </div>
         </div>
       </div>

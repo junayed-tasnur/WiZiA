@@ -3,6 +3,7 @@ import AILeadsPage from "./components/AILeadsPage";
 import DrawerAppBar from "./components/Navbar";
 import Card from "./components/Card";
 import Train from "./components/Train";
+import TestimonialSlider from "./components/Slider";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Addsds />
         <Card />
         <Train />
+        <TestimonialSlider/>
       </div>
     </>
   );
