@@ -5,7 +5,7 @@ const Allocate = () => {
         className="relative bg-cover bg-no-repeat max-w-[1400px] mx-auto"
         style={{ backgroundImage: "url('/Frame2.png')" }}
       >
-        <div className="relative sm:max-w-[591px]  ml-10 ">
+        <div className="relative sm:max-w-[591px] ml-5  sm:ml-10 ">
           <div className="text-start ml-12">
             {/* Adjusted h1 with negative margin to move it up */}
             <h1 className="text-3xl text-white max-w-md ">
@@ -19,7 +19,7 @@ const Allocate = () => {
               where they can build relationships.
             </p>
           </div>
-          <div className=" flex sm:flex-row flex-col ml-10 mt-14 gap-5 mb-10">
+          <div className=" flex sm:flex-row flex-col ml-5 sm:ml-10 mt-14 gap-5 mb-10">
             <div>
               <h2 className="text-[40px] text-tcolr">32%</h2>
               <p className="text-[20px] mt-1 text-gray-300 max-w-2xs">
