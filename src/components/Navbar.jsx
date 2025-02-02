@@ -109,7 +109,7 @@ const Navbars = () => {
 
         {/* Drawer for Mobile View */}
         <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
-          <List>
+          <List className="!bg-bgc min-h-screen text-white">
             {menuItems.map((item) => (
               <ListItem button key={item} onClick={() => setOpen(false)}>
                 <ListItemText>{item}</ListItemText>

@@ -4,7 +4,7 @@ export default function EmailTrainingPage() {
   return (
     <div className="text-white flex text-start sm:items-center justify-center max-w-[1400px] mx-auto">
       <div
-        className="bg-cover bg-no-repeat w-full"
+        className="bg-cover bg-no-repeat w-full rounded-2xl"
         style={{ backgroundImage: `url('/Framebg.png')` }}
       >
         <div className="text-start max-w-xl px-6 py-12 mx-auto mt-10">
